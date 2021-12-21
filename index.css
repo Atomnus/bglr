@@ -4,6 +4,11 @@
   padding: 20px;
 }
 
+#hp  {
+float: right;    
+ margin: 0 0 0 15px;
+}
+
 html {
   height: 100%;
 }
