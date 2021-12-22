@@ -5,6 +5,7 @@ div.image {
 div.texts {
  font-weight: bold;
  font-size: 30px;
+ 
 }
 
 #hp  {
@@ -118,8 +119,12 @@ input:checked + .dot-info span {
   display: block;
   visibility: hidden;
   position: relative;
+  transition: transform .15s;
   z-index: -1;
   left: calc((((80vw - 25px) / 20) * -1) - 1px);
+}
+.dot-info:hover {
+  transform: scale(1.2);
 }
 .dot-info span {
   visibility: visible;
