@@ -18,30 +18,34 @@ html {
 }
 
 body {
-  min-height: 100%;
-}
-
-body {
-  font-family: "Quicksand", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   color: #424949;
-  background-color: #ECF0F1;
-  padding: 0 25px;
+  background-color: #2a2a3a;
+  padding: 0.25px;
   display: flex;
   flex-direction: column;
-  position: relative;
+}
+
+.header {
+  text-align: center;
+  padding: 18px;
 }
 
 h2 {
   text-align: center;
   height: 30px;
   margin: 25px 0;
+  color: #cecece;
 }
+
 h1 span {
   white-space: nowrap;
+  color: #cecece;
 }
 
 .flex-parent {
+  font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -110,7 +114,7 @@ input:checked ~ input, input:checked ~ input::before, input:checked ~ input::aft
   background-color: #AEB6BF;
 }
 input:checked + .dot-info span {
-  font-size: 13px;
+  font-size: 12px;
   font-weight: bold;
 }
 
@@ -130,11 +134,13 @@ input:checked + .dot-info span {
   visibility: visible;
   position: absolute;
   font-size: 12px;
+  color: #cecece;
 }
 .dot-info span.year {
   bottom: -30px;
   left: 50%;
   transform: translateX(-50%);
+  color: #cecece;
 }
 .dot-info span.label {
   top: -65px;
@@ -142,6 +148,7 @@ input:checked + .dot-info span {
   transform: rotateZ(-45deg);
   width: 70px;
   text-indent: -10px;
+  color: #cecece;
 }
 
 #timeline-descriptions-wrapper {
@@ -154,6 +161,7 @@ input:checked + .dot-info span {
 #timeline-descriptions-wrapper p {
   margin-top: 0;
   display: none;
+  color: #cecece;
 }
 
 input[data-description="1910"]:checked ~ #timeline-descriptions-wrapper p[data-description="1910"] {
