@@ -8,6 +8,10 @@ div.texts {
  
 }
 
+a:link {
+  color: #616161;
+}
+
 #hp  {
 float: right;    
  margin: 0 0 0 15px;
@@ -33,8 +37,9 @@ body {
 }
 
 .links {
-   font-size: 25px;
+   font-size: 20px;
    text-align: center;
+   display: inline-block;
 }
 
 h2 {
