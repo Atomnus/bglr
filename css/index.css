@@ -4,7 +4,7 @@ div.image {
 
 img {  
   float: none; 
-  margin-bottom: -10px;
+  margin-bottom: -20px;
 }
  
 div.texts {
@@ -15,6 +15,7 @@ div.texts {
 
 a:link {
   color: #616161;
+  size=20px;
 }
 
 #hp  {
