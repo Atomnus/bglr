@@ -34,13 +34,11 @@ body {
 .header {
   text-align: center;
   padding: 8px;
-  display: inline-block;
 }
 
 .links {
    font-size: 20px;
    text-align: center;
-   display: inline-block;
 }
 
 h2 {
