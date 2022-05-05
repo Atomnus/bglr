@@ -55,6 +55,10 @@ h1 span {
   color: #cecece;
 }
 
+li {
+    display: inline
+}
+
 .flex-parent {
   font-family: 'Roboto', sans-serif;
   display: flex;
