@@ -4,7 +4,7 @@ div.image {
 
 img {  
   float: none; 
-  margin-bottom: 10px;
+  margin-bottom: -10px;
 }
  
 div.texts {
