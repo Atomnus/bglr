@@ -2,6 +2,11 @@ div.image {
    margin-top: 3px;
 }
 
+img {  
+    float: left; 
+    margin-right: 10px; 
+}
+ 
 div.texts {
  font-weight: bold;
  font-size: 30px;
