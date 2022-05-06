@@ -11,6 +11,10 @@ img {
   margin-bottom: -30px;
 }
  
+div.words {
+   float: left;
+}
+
 div.texts {
  font-weight: bold;
  font-size: 30px;
@@ -20,6 +24,10 @@ div.texts {
 a:link {
   color: #616161;
   font-size: 18px;
+}
+
+a:visited {
+   color:#64558a
 }
 
 #hp  {
@@ -34,7 +42,7 @@ html {
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
-  color: #424949;
+  color: #cecece;
   background-color: #11101f;
   padding: 0.25px;
   display: flex;
