@@ -222,7 +222,7 @@ input:checked + .dot-info span {
 }
 
 #timeline-descriptions-wrapper {
-  width: 100%;
+  width: 52%;
   margin-top: 140px;
   font-size: 22px;
   font-weight: 400;
@@ -230,6 +230,7 @@ input:checked + .dot-info span {
 }
 #timeline-descriptions-wrapper p {
   margin-top: 0;
+  margin-left: -500px;
   display: none;
   color: #cecece;
 }
