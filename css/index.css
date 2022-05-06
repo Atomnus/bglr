@@ -2,6 +2,10 @@ div.image {
    margin-top: 3px;
 }
 
+p {
+   margin: 20px;
+}
+
 img {  
   float: none; 
   margin-bottom: -30px;
