@@ -261,7 +261,7 @@ input[data-description="2017"]:checked ~ #timeline-descriptions-wrapper p[data-d
 
 @media (min-width: 1250px) {
   .input-flex-container {
-    margin-left: 62.5px;
+    margin-left: 600.5px;
   }
 
   input::before {
