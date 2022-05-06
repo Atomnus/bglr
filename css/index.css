@@ -230,7 +230,7 @@ input:checked + .dot-info span {
 }
 #timeline-descriptions-wrapper p {
   margin-top: 0;
-  margin-left: -500px;
+  margin-left: -950px;
   display: none;
   color: #cecece;
 }
@@ -261,7 +261,7 @@ input[data-description="2017"]:checked ~ #timeline-descriptions-wrapper p[data-d
 
 @media (min-width: 1250px) {
   .input-flex-container {
-    margin-left: 600.5px;
+    margin-left: 550.5px;
   }
 
   input::before {
