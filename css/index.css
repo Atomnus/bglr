@@ -5,6 +5,7 @@ div.image {
 p {
    margin: 20px;
    font-size: 18px;
+   line-height: 1;
 }
 
 .words {
