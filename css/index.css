@@ -2,6 +2,14 @@ div.image {
    margin-top: 3px;
 }
 
+.floater {
+   float:right;
+}
+
+.floatel {
+   float:left;
+}
+
 p {
    margin: 20px;
    font-size: 18px;
