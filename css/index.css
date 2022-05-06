@@ -4,13 +4,9 @@ div.image {
 
 p {
    margin: 20px;
+   font-size: 20px;
 }
 
-img {  
-  float: none; 
-  margin-bottom: -30px;
-}
- 
 .words {
    float: left;
 }
